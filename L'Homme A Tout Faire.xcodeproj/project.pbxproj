@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87F057921BC516E6006E7363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F057911BC516E6006E7363 /* AppDelegate.swift */; };
+		87F057941BC516E6006E7363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F057931BC516E6006E7363 /* ViewController.swift */; };
+		87F057971BC516E6006E7363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F057951BC516E6006E7363 /* Main.storyboard */; };
+		87F057991BC516E6006E7363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F057981BC516E6006E7363 /* Assets.xcassets */; };
+		87F0579C1BC516E6006E7363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F0579A1BC516E6006E7363 /* LaunchScreen.storyboard */; };
+		87F057A71BC516E6006E7363 /* L_Homme_A_Tout_FaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F057A61BC516E6006E7363 /* L_Homme_A_Tout_FaireTests.swift */; };
+		87F057B21BC516E6006E7363 /* L_Homme_A_Tout_FaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F057B11BC516E6006E7363 /* L_Homme_A_Tout_FaireUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87F057A31BC516E6006E7363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87F057861BC516E5006E7363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F0578D1BC516E6006E7363;
+			remoteInfo = "L'Homme A Tout Faire";
+		};
+		87F057AE1BC516E6006E7363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87F057861BC516E5006E7363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F0578D1BC516E6006E7363;
+			remoteInfo = "L'Homme A Tout Faire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87F0578E1BC516E6006E7363 /* L'Homme A Tout Faire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L'Homme A Tout Faire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F057911BC516E6006E7363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87F057931BC516E6006E7363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87F057961BC516E6006E7363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87F057981BC516E6006E7363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87F0579B1BC516E6006E7363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87F0579D1BC516E6006E7363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F057A21BC516E6006E7363 /* L'Homme A Tout FaireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "L'Homme A Tout FaireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F057A61BC516E6006E7363 /* L_Homme_A_Tout_FaireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L_Homme_A_Tout_FaireTests.swift; sourceTree = "<group>"; };
+		87F057A81BC516E6006E7363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F057AD1BC516E6006E7363 /* L'Homme A Tout FaireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "L'Homme A Tout FaireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F057B11BC516E6006E7363 /* L_Homme_A_Tout_FaireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L_Homme_A_Tout_FaireUITests.swift; sourceTree = "<group>"; };
+		87F057B31BC516E6006E7363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87F0578B1BC516E6006E7363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F0579F1BC516E6006E7363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F057AA1BC516E6006E7363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87F057851BC516E5006E7363 = {
+			isa = PBXGroup;
+			children = (
+				87F057901BC516E6006E7363 /* L'Homme A Tout Faire */,
+				87F057A51BC516E6006E7363 /* L'Homme A Tout FaireTests */,
+				87F057B01BC516E6006E7363 /* L'Homme A Tout FaireUITests */,
+				87F0578F1BC516E6006E7363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87F0578F1BC516E6006E7363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87F0578E1BC516E6006E7363 /* L'Homme A Tout Faire.app */,
+				87F057A21BC516E6006E7363 /* L'Homme A Tout FaireTests.xctest */,
+				87F057AD1BC516E6006E7363 /* L'Homme A Tout FaireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87F057901BC516E6006E7363 /* L'Homme A Tout Faire */ = {
+			isa = PBXGroup;
+			children = (
+				87F057911BC516E6006E7363 /* AppDelegate.swift */,
+				87F057931BC516E6006E7363 /* ViewController.swift */,
+				87F057951BC516E6006E7363 /* Main.storyboard */,
+				87F057981BC516E6006E7363 /* Assets.xcassets */,
+				87F0579A1BC516E6006E7363 /* LaunchScreen.storyboard */,
+				87F0579D1BC516E6006E7363 /* Info.plist */,
+			);
+			path = "L'Homme A Tout Faire";
+			sourceTree = "<group>";
+		};
+		87F057A51BC516E6006E7363 /* L'Homme A Tout FaireTests */ = {
+			isa = PBXGroup;
+			children = (
+				87F057A61BC516E6006E7363 /* L_Homme_A_Tout_FaireTests.swift */,
+				87F057A81BC516E6006E7363 /* Info.plist */,
+			);
+			path = "L'Homme A Tout FaireTests";
+			sourceTree = "<group>";
+		};
+		87F057B01BC516E6006E7363 /* L'Homme A Tout FaireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87F057B11BC516E6006E7363 /* L_Homme_A_Tout_FaireUITests.swift */,
+				87F057B31BC516E6006E7363 /* Info.plist */,
+			);
+			path = "L'Homme A Tout FaireUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87F0578D1BC516E6006E7363 /* L'Homme A Tout Faire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F057B61BC516E6006E7363 /* Build configuration list for PBXNativeTarget "L'Homme A Tout Faire" */;
+			buildPhases = (
+				87F0578A1BC516E6006E7363 /* Sources */,
+				87F0578B1BC516E6006E7363 /* Frameworks */,
+				87F0578C1BC516E6006E7363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L'Homme A Tout Faire";
+			productName = "L'Homme A Tout Faire";
+			productReference = 87F0578E1BC516E6006E7363 /* L'Homme A Tout Faire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87F057A11BC516E6006E7363 /* L'Homme A Tout FaireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F057B91BC516E6006E7363 /* Build configuration list for PBXNativeTarget "L'Homme A Tout FaireTests" */;
+			buildPhases = (
+				87F0579E1BC516E6006E7363 /* Sources */,
+				87F0579F1BC516E6006E7363 /* Frameworks */,
+				87F057A01BC516E6006E7363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F057A41BC516E6006E7363 /* PBXTargetDependency */,
+			);
+			name = "L'Homme A Tout FaireTests";
+			productName = "L'Homme A Tout FaireTests";
+			productReference = 87F057A21BC516E6006E7363 /* L'Homme A Tout FaireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87F057AC1BC516E6006E7363 /* L'Homme A Tout FaireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F057BC1BC516E6006E7363 /* Build configuration list for PBXNativeTarget "L'Homme A Tout FaireUITests" */;
+			buildPhases = (
+				87F057A91BC516E6006E7363 /* Sources */,
+				87F057AA1BC516E6006E7363 /* Frameworks */,
+				87F057AB1BC516E6006E7363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F057AF1BC516E6006E7363 /* PBXTargetDependency */,
+			);
+			name = "L'Homme A Tout FaireUITests";
+			productName = "L'Homme A Tout FaireUITests";
+			productReference = 87F057AD1BC516E6006E7363 /* L'Homme A Tout FaireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87F057861BC516E5006E7363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Can ATAC";
+				TargetAttributes = {
+					87F0578D1BC516E6006E7363 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					87F057A11BC516E6006E7363 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 87F0578D1BC516E6006E7363;
+					};
+					87F057AC1BC516E6006E7363 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 87F0578D1BC516E6006E7363;
+					};
+				};
+			};
+			buildConfigurationList = 87F057891BC516E5006E7363 /* Build configuration list for PBXProject "L'Homme A Tout Faire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87F057851BC516E5006E7363;
+			productRefGroup = 87F0578F1BC516E6006E7363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87F0578D1BC516E6006E7363 /* L'Homme A Tout Faire */,
+				87F057A11BC516E6006E7363 /* L'Homme A Tout FaireTests */,
+				87F057AC1BC516E6006E7363 /* L'Homme A Tout FaireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87F0578C1BC516E6006E7363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F0579C1BC516E6006E7363 /* LaunchScreen.storyboard in Resources */,
+				87F057991BC516E6006E7363 /* Assets.xcassets in Resources */,
+				87F057971BC516E6006E7363 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F057A01BC516E6006E7363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F057AB1BC516E6006E7363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87F0578A1BC516E6006E7363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F057941BC516E6006E7363 /* ViewController.swift in Sources */,
+				87F057921BC516E6006E7363 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F0579E1BC516E6006E7363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F057A71BC516E6006E7363 /* L_Homme_A_Tout_FaireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F057A91BC516E6006E7363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F057B21BC516E6006E7363 /* L_Homme_A_Tout_FaireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87F057A41BC516E6006E7363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F0578D1BC516E6006E7363 /* L'Homme A Tout Faire */;
+			targetProxy = 87F057A31BC516E6006E7363 /* PBXContainerItemProxy */;
+		};
+		87F057AF1BC516E6006E7363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F0578D1BC516E6006E7363 /* L'Homme A Tout Faire */;
+			targetProxy = 87F057AE1BC516E6006E7363 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87F057951BC516E6006E7363 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87F057961BC516E6006E7363 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87F0579A1BC516E6006E7363 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87F0579B1BC516E6006E7363 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87F057B41BC516E6006E7363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87F057B51BC516E6006E7363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87F057B71BC516E6006E7363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L'Homme A Tout Faire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.canatac.L-Homme-A-Tout-Faire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87F057B81BC516E6006E7363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L'Homme A Tout Faire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.canatac.L-Homme-A-Tout-Faire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87F057BA1BC516E6006E7363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "L'Homme A Tout FaireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.canatac.L-Homme-A-Tout-FaireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/L'Homme A Tout Faire.app/L'Homme A Tout Faire";
+			};
+			name = Debug;
+		};
+		87F057BB1BC516E6006E7363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "L'Homme A Tout FaireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.canatac.L-Homme-A-Tout-FaireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/L'Homme A Tout Faire.app/L'Homme A Tout Faire";
+			};
+			name = Release;
+		};
+		87F057BD1BC516E6006E7363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "L'Homme A Tout FaireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.canatac.L-Homme-A-Tout-FaireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "L'Homme A Tout Faire";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		87F057BE1BC516E6006E7363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "L'Homme A Tout FaireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.canatac.L-Homme-A-Tout-FaireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "L'Homme A Tout Faire";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87F057891BC516E5006E7363 /* Build configuration list for PBXProject "L'Homme A Tout Faire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F057B41BC516E6006E7363 /* Debug */,
+				87F057B51BC516E6006E7363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F057B61BC516E6006E7363 /* Build configuration list for PBXNativeTarget "L'Homme A Tout Faire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F057B71BC516E6006E7363 /* Debug */,
+				87F057B81BC516E6006E7363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87F057B91BC516E6006E7363 /* Build configuration list for PBXNativeTarget "L'Homme A Tout FaireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F057BA1BC516E6006E7363 /* Debug */,
+				87F057BB1BC516E6006E7363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87F057BC1BC516E6006E7363 /* Build configuration list for PBXNativeTarget "L'Homme A Tout FaireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F057BD1BC516E6006E7363 /* Debug */,
+				87F057BE1BC516E6006E7363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87F057861BC516E5006E7363 /* Project object */;
+}
