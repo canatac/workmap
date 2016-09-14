@@ -1,18 +1,18 @@
 //
-//  L_Homme_A_Tout_FaireUITests.swift
-//  L'Homme A Tout FaireUITests
+//  LHommeAToutFaireUITests.swift
+//  LHommeAToutFaire
 //
-//  Created by Can ATAC on 07/10/2015.
+//  Created by Can ATAC on 25/10/2015.
 //  Copyright © 2015 Can ATAC. All rights reserved.
 //
 
 import XCTest
 
-class L_Homme_A_Tout_FaireUITests: XCTestCase {
-        
+class LHommeAToutFaireUITests: XCTestCase {
+    
     override func setUp() {
         super.setUp()
-        
+       
         // Put setup code here. This method is called before the invocation of each test method in the class.
         
         // In UI tests it is usually best to stop immediately when a failure occurs.
@@ -27,10 +27,23 @@ class L_Homme_A_Tout_FaireUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        app.buttons["Cr\U00e9er"].tap()
+        app.alerts["Allow \U201cLHommeAToutFaire\U201d to access your location even when you are not using the app?"].collectionViews.buttons["Allow"].tap()
+        
+        let tablesQuery = app.tables
+        tablesQuery.buttons["Localisez moi"].tap()
+        tablesQuery.textFields["Pr\U00e9nom"].tap()
+        tablesQuery.cells.containingType(.StaticText, identifier:"Pr\U00e9nom").childrenMatchingType(.TextField).element.typeText("can")
+        tablesQuery.textFields["Nom"].tap()
+        tablesQuery.cells.containingType(.StaticText, identifier:"Nom").childrenMatchingType(.TextField).element.typeText("aze")
+        tablesQuery.textFields["Adresse"].tap()
+        
     }
-    
+
 }
